@@ -8,7 +8,6 @@ function Signin() {
           <div className="signin__card">
             <div className="signin__header">
               <div className="logo">GameVerse</div>
-              <div className="signin__text">Sign In</div>
             </div>
             <div className="signin__inputs">
               <input type="text" placeholder='Username' className='username'/>
@@ -20,8 +19,10 @@ function Signin() {
             <div className="login__button">
               <button className='log__in'>Log In</button>
               <button className='log__in facebook'><FaFacebook/></button>
-              <button className='log__in twitter'><FaTwitter/></button>
             </div>
+          <div className="signin__header">
+            <div className="signin__text">Don't have an account?<a href="#">Sign Up</a></div>
+          </div>
           </div>
         </div>
       </section>

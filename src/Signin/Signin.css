@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(-45deg,hsl(233, 47%, 7%),hsl(233, 47%, 20%),hsl(233, 47%, 35%),hsl(233, 47%, 20%),hsl(233, 47%, 7%));
+    background-image: linear-gradient(-45deg,hsl(233, 47%, 5%),hsl(233, 47%, 20%),hsl(233, 47%, 35%),hsl(233, 47%, 20%),hsl(233, 47%, 7%));
     background-size: 400% 400%;
     font-family: 'Outfit', sans-serif;
     animation: change 7s ease-in-out infinite;
@@ -65,6 +65,9 @@
     font-weight: 400;
     color: white;
 }
+.signin__card .signin__text a{
+    color: white;
+}
 .signin__inputs{
     display: flex;
     flex-direction: column;
@@ -84,10 +87,10 @@
     height: 3.5rem;
     outline: none;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     color: white;
     background-color: hsl(233, 47%, 13%);
-    /* border: 1px solid red; */
+    border: 1px solid white;
 }
 .signin__inputs label{
     /* border: 1px solid red; */
@@ -112,9 +115,11 @@
     align-items: center;
     gap: 10px;
     /* border: 1px solid red; */
+    padding: 10% 0;
 }
 .signin__card .login__button .log__in{
-    width: 70%;
+    width: 80%;
+    /* border: 2px solid hsl(233, 47%, 7%); */
     font-size: 1.8em;
     padding: 10px;
     background-color: hsl(233, 47%, 13%);
@@ -127,6 +132,7 @@
 .signin__card .login__button .log__in:hover{
     transform: scale(1.05);
     background-color:hsl(233, 47%, 20%);
+    cursor: pointer;
 }
 .signin__card .login__button .facebook:hover{
     background-color: #3b5998;
