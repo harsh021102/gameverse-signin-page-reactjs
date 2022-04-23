@@ -25,7 +25,7 @@
 .container{
     /* border: 1px solid red; */
     min-width: 30%;
-    height: 90%;
+    min-height: 90%;
     background-color: hsl(233, 47%, 7%);
     display: flex;
     justify-content: center;
@@ -36,7 +36,7 @@
     .container{
         /* border: 1px solid red; */
         min-width: 70%;
-        height: 90%;
+        min-height: 90%;
     }
 }
 .signin__card{
@@ -45,14 +45,15 @@
     width: 80%;
     height: 80%;
     flex-direction: column;
-    /* justify-content: space-between; */
-    gap: 1rem;
+    justify-content: center;
+    /* gap: 1rem; */
     align-items: center;
 }
 .signin__header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     /* border: 1px solid white; */
 }
 .signin__card .logo{
@@ -86,7 +87,6 @@
     font-size: 1.05em;
     height: 3.5rem;
     outline: none;
-    border: none;
     border-radius: 8px;
     color: white;
     background-color: hsl(233, 47%, 13%);
@@ -115,7 +115,7 @@
     align-items: center;
     gap: 10px;
     /* border: 1px solid red; */
-    padding: 10% 0;
+    padding: 5% 0;
 }
 .signin__card .login__button .log__in{
     width: 80%;
